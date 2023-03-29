@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en-AR">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="blog, films, cinema, movies, cine, tv shows, tv, streaming, trends, cast, reparto, críticas, classic, disney, hbo max, netflix, amazone prime, star plus, flow, paramount plus, crunchyroll, Action, Documental, Drama, Musical, Thriller, anime">
+    <meta name="description"
+        content="Enjoy exclusive Getflix as well as popular movies and TV shows. GETFLIX, The big screen experience on your TV, or watch on your tablet, laptop, phone and more. You can watch an ever-growing selection of titles in 4K.">
+    <meta name="author" content="Getflix">
+    <link rel="icon" href="./images/icons/logo.png">
+    <title>GETFLIX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@100;200;400;500;600;700;800&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="body">
+    <div class="container__getflix-title">
+        <video class="video-getflix" autoplay muted preload loop src="https://vod-bgc-sa-east-1.media.dssott.com/bgui/ps01/disney/bgui/2020/12/17/1608229455-star-wars.mp4"></video>
+        <h1 class="getflix-title">GETFLIX</h1>
+        <a class="container__arrow-img" href="#getflix">
+            <img class="arrow" src="images/icons/arrow.png" alt="arrow">
+        </a>
+    </div>
+     <!-- navbar -->
+    <nav class="navbar navbar-dark bg-dark fixed-top nav-shadow">
+        <div class="d-none d-md-block">
+            <a href="../index.html">
+                <img class="navbar__img ms-3" src="../../images/icons/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="container-fluid d-md-none">
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar"
+                aria-controls="offcanvasDarkNavbar"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./pages/signin.html"><i class="bi bi-person-circle fs-3"></i></a>
+            <div
+                class="offcanvas offcanvas-start text-bg-dark"
+                tabindex="-1"
+                id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel"
+            >
+                <div class="offcanvas-header justify-content-end">
+                    <button
+                        type="button"
+                        class="btn-close btn-close-white"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item ps-3 d-flex">
+                            <img
+                                class="nav-item-img me-3"
+                                src="../images/icons/logo.png"
+                                alt="logo">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link active" aria-current="page" href="./pages/aboutus.html"
+                                ><i class="bi bi-info-circle me-4"></i> About Us</a
+                            >
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link active" aria-current="page" href="./pages/contact.html"
+                                ><i class="bi bi-envelope-fill me-4"></i> Contact Us</a
+                            >
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link active" aria-current="page" href="./pages/signin.html"
+                                ><i class="bi bi-person-circle me-4"> </i>Sign In</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="d-none d-md-flex justify-content-around align-items-center">
+            <a class="nav-links text-light me-3" href="./pages/aboutus.html">About Us</a>
+            <a class="nav-links text-light" href="./pages/contact.html">Contact Us</a>
+            <form role="search">
+                <a href="./pages/signin.html" type="button" class="btn btn-navbar ms-4 me-3">Sing in
+                    <span></span>
+                    <span></span>
+                </a> 
+            </form>
+        </div>
+    </nav>
+    <!-- Slider mobile-->
+    <span id="getflix"></span>
+    <div class="slider d-md-none slider-mobile">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container__img-slider">
+                        <img src="./images/start-page/slider/mobile/slider-1.jpeg" class="img-slider-mobile d-block w-100 d-md-none"
+                            alt="img-slider 1">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container__img-slider">
+                        <img src="./images/start-page/slider/mobile/slider-2.jpeg" class="img-slider-mobile d-block w-100 d-md-none"
+                            alt="img-slider 2">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container__img-slider">
+                        <img src="./images/start-page/slider/mobile/slider-3.jpeg" class="img-slider-mobile d-block w-100 d-md-none"
+                            alt="img-slider 3">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <main class="container__main">
+        <div class="main__container-text">
+            <div class="container__title-paragraph">
+                <div class="container__main-title">
+                    <h2 class="main__title regular">WATCH MOVIES </h2>
+                    <h2 class="main__title italic">AND TV SHOW </h2>
+                </div>
+                <P class="main__paragraph">Enjoy exclusive<span class="getflix"> GETFLIX</span> as well as popular movies and TV shows. Watch now, cancel anytime.</P>
+            </div>      
+            <div class="container__buttons">   
+                <a href="./pages/signin.html" class="main-button member">Member? Sign In
+                    <span></span>
+                    <span></span>
+                </a>
+                <p class="main__or">or</p>
+                <a href="./pages/signin.html" class="main-button trial">Start your free trial
+                    <span></span>
+                    <span></span>
+                </a>  
+            </div>
+        </div>
+        <!-- Slider tablet/ descktop-->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade d-none d-md-block" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active container__img-slider">
+                    <img src="./images/start-page/slider/descktop/goku-le-gana-2.jpg" class="d-block w-100 img-slider-descktop" alt="Slider one mix movies">
+                </div>
+                <div class="carousel-item container__img-slider">
+                    <img src="./images/start-page/slider/descktop/slider-descktop-2.jpg" class="d-block w-100 img-slider-descktop" alt="Slider two mix movies">
+                </div>
+                <div class="carousel-item container__img-slider">
+                    <img src="./images/start-page/slider/descktop/slider-descktop-3.jpg" class="d-block w-100 img-slider-descktop" alt="Slider three mix movies">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>    
+    <h3 class="title-section-one-tablet">Watch the way you want</h3>
+    <div class="section-titles container__section-one sections">
+        <img class="section-one__img" src="images/start-page/photo-main-scroll.png" alt="photo-enjoy">
+        <div class="section-one__contain-title--parag">
+            <h3 class="section-titles title-section-one-mob">Watch the way you want</h3>
+            <p class="section-paragraphs p-section-one">Enjoy the big screem experience on your TV, or watch on your tablet, laptop, phone and more. You can watch an ever-growing selection of titles in 4K. Plus, you can stream on 4 screens at once, so everyone’s happy.</p>
+        </div>
+    </div>
+    <div class="container__section-gallery sections">
+        <img src="./images/start-page/gallery-animation/movie-1-ga.jpg" alt="movie-gallerie-1">
+        <img src="./images/start-page/gallery-animation/movie-2-ga.jpg" alt="movie-gallerie-2">
+        <img src="./images/start-page/gallery-animation/movie-3-ga.jpg" alt="movie-gallerie-3">
+        <img src="./images/start-page/gallery-animation/movie-4-ga.jpg" alt="movie-gallerie-4">
+        <img src="./images/start-page/gallery-animation/movie-5-ga.jpg" alt="movie-gallerie-5">
+        <img src="./images/start-page/gallery-animation/movie-6-ga.jpg" alt="movie-gallerie-6">
+    </div>
+    <div class="container__section-two sections">
+        <h3 data-text-2="Available on your favorite devices" class="section-titles title-section-2">Available on your favorite devices<h3>
+        <div class="section-two__container-devices">
+            <div class="devices__contain">
+                <img class="devices-images computer-img" src="images/start-page/device-computer.png" alt="Computer">
+                <h4 class="device-titles">Computer</h4>
+                <h5 class="h5-op">Chrome OS</h5>
+                <h5 class="h5-op">MacOS</h5>
+                <h5 class="h5-op">Windows PC</h5>
+            </div>
+            <div class="devices__contain">
+                <img class="devices-images tv-img" src="images/start-page/device-tv.png" alt="TV">
+                <h4 class="device-titles">TV</h4>
+                <h5 class="h5-op">Amazon Fire TV</h5>
+                <h5 class="h5-op">Android TV</h5>
+                <h5 class="h5-op">Apple TV</h5>
+                <h5 class="h5-op">Chromecast</h5>
+                <h5 class="h5-op">LG TV</h5>
+                <h5 class="h5-op">Roku</h5>
+                <h5 class="h5-op">Samsung</h5>
+            </div>
+            <div class="devices__contain">
+                <img class="devices-images game-img" src="images/start-page/device-game-console.png" alt="Game">
+                <h4 class="device-titles">Game Consoles</h4>
+                <h5 class="h5-op">PS4</h5>
+                <h5 class="h5-op">PS5</h5>
+                <h5 class="h5-op">Xbox One</h5>
+                <h5 class="h5-op">Xbox Series X</h5>
+                <h5 class="h5-op">Xbox Series X</h5>
+                <h5 class="h5-op">Xbox Series S</h5>
+            </div>
+            <div class="devices__contain">
+                <img class="devices-images tablet-img" src="images/start-page/device-tablet.png" alt="Tablet">
+                <h4 class="device-titles">Mobile & Tablet</h4>
+                <h5 class="h5-op">Amazon Fire Tables</h5>
+                <h5 class="h5-op">Android Phones & Tablets</h5>
+                <h5 class="h5-op">iPhone & iPad</h5>
+            </div>
+        </div>
+    </div>
+    <div class="container__section-three sections">
+        <img class="lion-king-mobile-img" src="./images/start-page/lion-king-mobile.png" alt="Lion King">
+        <img class="lion-king-descktop-img" src="./images/start-page/lion-king-descktop.png" alt="Lion King">
+        <div class="section-three__contain-title--parag">
+            <h4 class="section-titles">Download any series or movie</h4>
+            <p class="section-paragraphs">Download whatever you want and watch whenever you want. Your favorites will always stay with you, even if your Wi-Fi won’t.</p>
+        </div>
+    </div>
+    <section class="container__faq-questions">
+        <h3 class="faq__main-title">FAQs</h3>
+        <div class="faq">
+            <div class="question">
+                <h4>What is Getflix?</h4>
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="answer">
+               <p>Getflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
+               <p>You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">
+                <h4>How much does Getflix cost?</h4>
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="answer">
+                <p>Watch Getflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ARS 2 to ARS 2,99 a month (pre-tax). No extra costs, no contracts.</p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">
+                <h4>Where can I watch?</h4>
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="answer">
+                <p>Watch anywhere, anytime. Sign in with your Getflix account to watch instantly on the web at getflix.com from your personal computer or on any internet-connected device that offers the Getflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
+                <p>You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Getflix with you anywhere.</p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">
+                <h4>How do I cancel?</h4>
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="answer">
+                <p>Getflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">
+                <h4>What can I watch on Getflix?</h4>
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="answer">
+                <p>Getflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Getflix originals, and more. Watch as much as you want, anytime you want.</p>
+            </div>
+        </div>
+        <div class="faq">
+            <div class="question">
+                <h4>What can I watch on Getflix?</h4>
+                <svg width="15" height="10" viewBox="0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="answer">
+                <p>Getflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Getflix originals, and more. Watch as much as you want, anytime you want.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="container__footer">
+        <h2 class="footer__title">GETFLIX</h2>
+        <div class="footer__container-contact">
+            <div class="footer__container-logo">
+                <img class="footer__logo" src="./images/icons/logo.png" alt="Logo">
+            </div>
+            <div class="footer__icons">
+                <a href="https://twitter.com/?lang=es"><i class="icon-redes bi bi-twitter text-white"></i></a>
+                <a href="https://www.instagram.com/"><i class="icon-redes bi bi-instagram text-white "></i></a>
+                <a href="https://www.facebook.com/"><i class="icon-redes bi bi-facebook text-white "></i></a>
+            </div>
+            <div class="footer__contact">
+                <p>e-mail: movies@getflix.com</p>
+                <p>Social Media: @getflix</p>
+                <p>Phone number: 0123-4567</p>
+            </div>
+        </div>
+        <p class="footer__reserved">All rights reserved - 2023</p>
+    </footer>
+   <script src="./js/app.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
+
